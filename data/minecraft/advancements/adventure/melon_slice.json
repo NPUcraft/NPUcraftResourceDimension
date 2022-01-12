@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:adventure/swim_in_water",
+  "display": {
+    "icon": {
+      "item": "minecraft:melon"
+    },
+    "title": "你这瓜保熟吗",
+    "description": "你要不要吧",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "melon_slice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:melon_slice"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:adventure/blue_ice",
+  "display": {
+    "icon": {
+      "item": "minecraft:glow_berries"
+    },
+    "title": "地底点灯",
+    "description": "未曾窥见的地下世界",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "glow_berries": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glow_berries"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:nether/summon_wither",
+  "display": {
+    "icon": {
+      "item": "minecraft:beacon"
+    },
+    "title": "不灭薪火!",
+    "description": "继往开来，生生不息!",
+    "frame":"challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "beacon": {
+      "trigger": "minecraft:construct_beacon",
+      "conditions": {
+        "level": {
+          "min": 1
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "beacon"
+    ]
+  ]
+}

@@ -1,0 +1,1 @@
+execute as @a at @s if block ~ ~-1 ~ minecraft:crimson_nylium run advancement grant @s only minecraft:adventure/scarlet
