@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:end_stone"
+        },
+        "title": {
+            "translate": "哪里有些不一样..."
+        },
+        "description": {
+            "translate": "奇怪的祭坛"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "entered_end": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "to": "minecraft:the_end"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "entered_end"
+        ]
+    ],
+    "rewards": {
+        "function": "npudata:end_gate_generate"
+    }
+}
