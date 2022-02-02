@@ -31,4 +31,4 @@ setblock 0 62 2 gray_concrete_powder
 setblock 0 62 -2 gray_concrete_powder
 setblock 2 62 0 gray_concrete_powder
 setblock -2 62 0 gray_concrete_powder
-summon ender_dragon 0 80 0
+summon ender_dragon 0 80 0 {DragonPhase: 1}
